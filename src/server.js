@@ -21,6 +21,6 @@ https.createServer({
   key: readFileSync('server.key'),
   cert: readFileSync('server.crt'),
 }, server).listen(8000, () => {
-  console.log("API disponível através da url https://localhost:8000")
+  console.log("API inicializada https://localhost:8000")
 })
 
